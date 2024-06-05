@@ -81,7 +81,6 @@ const OrderInfo = () => {
     handleClose();
   };
   useDocumentTitle("معلومات الطلبية");
-  console.log(loading, error, info);
 
   return (
     <motion.div

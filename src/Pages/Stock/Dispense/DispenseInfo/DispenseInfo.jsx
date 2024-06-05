@@ -241,9 +241,6 @@ const DispenseInfo = () => {
     const amount = Number(amountOfMedicine[key]) || 0;
     return total + value * amount;
   }, 0);
-  console.log("totalPrice:", totalPrice);
-
-  console.log(medicinePrices);
   return (
     <motion.div
       initial={{ scale: 0 }}

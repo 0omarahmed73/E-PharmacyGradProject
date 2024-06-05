@@ -96,7 +96,6 @@ const CollageUsageInfo = () => {
       try {
         setLoading(true);
         const data = await fetchCollageUsageInfo(id);
-        console.log(data);
         setInfo(data);
         setFetched(true);
       } catch (error) {

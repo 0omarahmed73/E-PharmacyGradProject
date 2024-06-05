@@ -58,7 +58,6 @@ const UsageInfo = () => {
       try {
         setLoading(true);
         const data = await fetchUsageDetails(id);
-        console.log(data);
         setType(data.prescription.prsPrescriptionCategory.name);
         setMedicines(data.useageMedicines);
         setName(data.prescription.patient);

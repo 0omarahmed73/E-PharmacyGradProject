@@ -23,7 +23,6 @@ const NotificationsPage = () => {
       clearInterval(setTime);
     };
   }, [setSpinner]);
-  console.log(error , loading , notificationsData);
   useDocumentTitle(" الإشعارات");
   return (
     <motion.div
