@@ -1,0 +1,26 @@
+.rectangle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 20px;
+  gap: 10px;
+  background-color: #1d3242;
+  border: 1px solid #ebecec;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover {
+    scale: 1.05;
+  }
+}
+.te2{
+  font-size: 20px;
+  color:aliceblue ;
+  position: relative;
+  bottom: 50;
+  left: 90;
+}
+.image2 {
+  color: white;
+}

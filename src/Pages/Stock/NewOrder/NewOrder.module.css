@@ -1,0 +1,50 @@
+.newOrder {
+  .buttonandsvg {
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px !important;
+    display: flex;
+    max-height: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 290px;
+  }
+  
+  .mediTable {
+    max-height: 150px !important;
+    border-radius: 10px !important;    
+    border: var(--bs-border-width) solid var(--bs-border-color) !important ; 
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+:global(.mainTitle) {
+  margin: 0;
+}
+.group {
+  position: relative;
+}
+
+
+.imgSvg {
+  width: 180px;
+  & img {
+    aspect-ratio: 1.1/1.1;
+    margin-top: -20px;
+  }
+}
+
+body {
+  @media screen and (min-width: 1080px) {
+    & {
+    }
+  }
+}

@@ -1,0 +1,161 @@
+.container2222 {
+  border: 1px solid black;
+  margin-top: 10px;
+  min-height: 90px;
+  background-color: #28465C;
+  border-radius: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 550px;
+}
+
+.rowTitle {
+  padding-block: 10px;
+  max-height: 400px;
+}
+.rowTitle p:nth-of-type(1) {
+  flex: 0.5;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.rowTitle p:nth-of-type(2) {
+  flex: 2;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  all: unset;
+  text-align: end !important;
+  margin-right: auto;
+  background-color: white !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 7px 0px #00000059 !important;
+  transition: 0.4s;
+  border: none !important;
+  outline: none !important;
+  color: black !important;
+  border: 1px solid transparent !important;
+
+  &:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+}
+
+.search:focus {
+  &::placeholder {
+    color: transparent;
+    transition: 0.5s;
+  }
+}
+
+
+.allParts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: auto !important;
+  &>div {
+    @media (max-width: 992px) {
+      all: unset !important;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px !important;
+
+      &>div {
+        margin-bottom: 10px;
+      }
+
+      &>div:not(.profileImg) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    & {
+      flex-direction: row;
+
+      &>div {
+        &>div {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+}
+
+h5 {
+  @media screen and (max-width: 450px) {
+    & {
+      font-size: 14px !important;
+    }
+  }
+}
+
+.part2 {
+  all: unset;
+  border-radius: 10px;
+  width: auto;
+  &>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+   color: black;
+   padding: 10px;
+   border-radius: 10px;
+   transition: 0.5s;
+   &:hover {
+    scale: 1.03;
+   }
+  }
+}
+
+.part1 {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  padding: 20px;
+  width: auto;
+  margin-right: 20px;
+}
+
+
+.btn {
+  all: unset;
+  text-align: end !important;
+  margin-right: auto;
+  
+  background-color: white !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 7px 0px #00000059 !important;
+  transition: 0.4s;
+  border: none !important;
+  outline: none !important;
+  color: black !important;
+  border: 1px solid transparent !important;
+  &:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+}

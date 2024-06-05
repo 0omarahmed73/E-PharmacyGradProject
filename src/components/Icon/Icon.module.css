@@ -1,0 +1,17 @@
+.icon {
+  background-color: var(--main2);
+  position: relative;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 7px 0px #00000059 !important;
+  transition: 0.4s;
+  &:hover {
+    background-color: #2a4961;
+  }
+}

@@ -1,0 +1,21 @@
+td {
+  text-align: start !important;
+  padding-right: 0 !important ;
+  word-break : break-all !important; ;
+  @media screen and (min-width : 998px) {
+    & {
+      padding-right: 0.5rem !important ;
+    }
+  }
+}
+
+.biggerFonts {
+  font-size: 18px !important;
+  @media screen and (max-width : 650px) {
+    & {
+      font-size: 15px !important;
+      word-break: break-all !important;
+    }
+  }
+
+}

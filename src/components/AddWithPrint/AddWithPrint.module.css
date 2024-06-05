@@ -1,0 +1,24 @@
+.btn {
+  all: unset;
+  text-align: end !important;
+  margin-right: auto;
+  
+  background-color: white !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 7px 0px #00000059 !important;
+  transition: 0.4s;
+  border: none !important;
+  outline: none !important;
+  color: black !important;
+  border: 1px solid transparent !important;
+  &:hover {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+}

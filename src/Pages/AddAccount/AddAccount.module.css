@@ -1,0 +1,10 @@
+.addAccount {
+  .buttonandsvg {
+    border: var(--bs-border-width) solid var(--bs-border-color) ;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px !important;
+    width: 100%;
+    margin-bottom: 10px !important;
+  }
+}

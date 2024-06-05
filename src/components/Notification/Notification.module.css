@@ -1,0 +1,38 @@
+.container2 {
+  min-height: 300px;
+  max-width: 250px;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  background-color: #e5e5e56b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  border-radius: 10px;
+}
+@media screen and (min-width: 428px) {
+  .container2 {
+  max-width: 300px !important;
+  }
+}
+@media screen and (min-width: 568px) {
+  .container2{
+    max-width: 500px !important;
+  }
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #FFF8E5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: var(--mainColor);
+}

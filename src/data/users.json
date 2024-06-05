@@ -1,0 +1,26 @@
+{
+  "users" : [
+    { 
+      "accessToken" : "1234567890",
+      "id" : 1,
+      "name" : "John Doe",
+      "email" : "0omarahmed73@gmail.com",
+      "password" : "1234567890"
+    },
+    {
+      "accessToken" : "0987654321",
+      "id" : 2,
+      "name" : "Jane Doe",
+      "email" : "omar12@gmail.com",
+      "password" : "0987654321"
+    }
+    ,
+    {
+      "accessToken" : "2131221321",
+      "id" : 3,
+      "name" : "John Smith",
+      "email" : "omarsahmed12@gmail.com",
+      "password" : "2131221321"
+    }
+  ]
+}

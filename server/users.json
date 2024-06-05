@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "accessToken": "1234567890",
+      "id": 1,
+      "name": "عمر احمد",
+      "username": "0omarahmed73@gmail.com",
+      "password": "1234567890",
+      "role": "مدير المخزن"
+    },
+    {
+      "accessToken": "0987654321",
+      "id": 2,
+      "name": "محمد عبد الغني",
+      "username": "omar12@gmail.com",
+      "password": "0987654321",
+      "role": "جرد الدفاتر"
+    },
+    {
+      "accessToken": "2131221321",
+      "id": 3,
+      "name": "امير ابراهيم",
+      "username": "omarsahmed12@gmail.com",
+      "password": "2131221321",
+      "role": "استلام الروشتات"
+    },
+    {
+      "accessToken": "20ce5a12-eead-4a13-a9b5-2e2c2dbaa857",
+      "id": 1700505898283,
+      "name": "Omar Ahmed",
+      "username": "omar.yogi22@yahoo.com",
+      "password": "Oo123456@@",
+      "role": 4,
+      "phone": 1024197972,
+      "nationalId": 42343333323423
+    },
+    {
+      "accessToken": "187e62e7-d7a8-4adf-b425-7af3a68013e6",
+      "id": 1700506410696,
+      "name": "كريم بلال علي",
+      "username": "karim22@yahoo.com",
+      "password": "،ن123456",
+      "role": "مهندس",
+      "phone": "1025192877",
+      "nationalId": "21312321344412"
+    },
+    {
+      "accessToken": "2e3b3ae6-725d-4443-9884-894e4bd85081",
+      "id": 1700506716426,
+      "name": "محمود حسن محمود",
+      "username": "mahmoud2@yahoo.com",
+      "password": "Mm123456",
+      "role": "طبيبي",
+      "phone": 1234536789,
+      "nationalId": 23423423423233
+    },
+    {
+      "accessToken": "798458d7-f80a-49ad-8188-ddf4f8b6197e",
+      "id": 1700510134922,
+      "name": "مصطفى احمد حسن",
+      "username": "omarsaber122@yahoo.com",
+      "password": "oO123456@",
+      "role": "ممرض",
+      "phone": 1024197971,
+      "nationalId": 24234342323333
+    }
+  ]
+}

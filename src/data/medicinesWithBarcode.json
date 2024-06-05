@@ -1,0 +1,54 @@
+[{
+  "_version": 1,
+  "id": "1",
+  "genericName": "ABCIXIMAB INJECTION 10MG IN 5ML",
+  "brandName": "REOPRO",
+  "measurementUnit": "None",
+  "form": "Injectible",
+  "barcode" : "6222019600017"
+}, {
+  "_version": 1,
+  "id": "2",
+  "genericName": "ABIRATERONE ACETATE TABLETS 250MG",
+  "brandName": "ZYTIGA",
+  "measurementUnit": "None",
+  "form": "Tablet"
+  ,"barcode" : "6291100783823"
+},  {
+  "_version": 1,
+  "id": "4007",
+  "genericName": "BUSCOPAN SUPPO 10MG",
+  "brandName": "BUSCOPAN SUPPO 10MG",
+  "measurementUnit": "None",
+  "form": "Suppository"
+  ,"barcode" : "6224009003297"
+},
+{
+  "_version": 1,
+  "id": "4008",
+  "genericName": "BUSCOPAN TAB 10MG",
+  "brandName": "BUSCOPAN TAB 10MG",
+  "measurementUnit": "None",
+  "form": "Tablet"
+  ,"barcode" : "8657562321"
+
+},
+{
+  "_version": 1,
+  "id": "4009",
+  "genericName": "PARACETAMOL SYRUP 120MG/5ML",
+  "brandName": "PANADOL SYRUP",
+  "measurementUnit": "None",
+  "form": "Syrup"
+  ,"barcode" : "63346341111"
+},
+{
+  "_version": 1,
+  "id": "4010",
+  "genericName": "PARACETAMOL 500MG",
+  "brandName": "PANADOL 500 MG",
+  "measurementUnit": "None",
+  "form": "Tablet"
+  ,"barcode" : "12314664587"
+}
+]

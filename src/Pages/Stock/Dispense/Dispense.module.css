@@ -1,0 +1,28 @@
+.dispense {
+  .buttonandsvg {
+    border: var(--bs-border-width) solid var(--bs-border-color) ;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px !important;
+    display: flex;
+    max-height: fit-content;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .mediTable {
+    max-height: 200px !important;
+    border-radius: 10px;     
+    border: var(--bs-border-width) solid var(--bs-border-color) ; 
+  }
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+:global(.mainTitle) {
+  margin: 0;
+}
