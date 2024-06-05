@@ -154,7 +154,6 @@ const AddMedicine = () => {
       };
       setloading10(true);
       let response;
-      console.log(values);
       if (location.pathname.includes("edit")) {
         response = await updateMedicine(values);
       } else {

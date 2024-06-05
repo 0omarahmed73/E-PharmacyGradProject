@@ -147,9 +147,7 @@ const OldCollageUsage = () => {
       isMount.current = true;
     }
   }, [fetchCollageUsage]);
-  console.log(originalData);
   useDocumentTitle(`عرض الأذونات القديمة`);
-  console.log();
   return (
     <motion.div
       initial={{ scale: 0 }}

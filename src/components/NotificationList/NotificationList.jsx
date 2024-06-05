@@ -24,7 +24,6 @@ const NotificationList = () => {
         notificationsData.length !== parseInt(localStorage.getItem("oldNum")) &&
         notificationsData.length !== lastNotifiedCount
       ) {
-        console.log(localStorage.getItem("oldNum"));
         localStorage.setItem("oldNum", notificationsData.length);
         toast.info("تم تحديث الإشعارات");
         setLastNotifiedCount(notificationsData.length);

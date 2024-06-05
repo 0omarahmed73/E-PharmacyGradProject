@@ -96,7 +96,6 @@ const Dispense = () => {
       ? "تعديل معلومات روشتة قديمة"
       : "إضافة روشتة جديدة"
   );
-  console.log(loading,loading2 , loading3 , loadingPatients)
   const formik = useFormik({
     validateOnMount: true,
     initialValues: location.pathname.includes("edit")

@@ -87,7 +87,6 @@ const OldDispenses = () => {
         const data = await fetchPrescriptions(realType);
         setItems(data);
         setPrecisions(data);
-        console.log(data.length);
         if (data.length > 0) {
           setPatients((d) => {
             return data.map((precision) => precision.patient);

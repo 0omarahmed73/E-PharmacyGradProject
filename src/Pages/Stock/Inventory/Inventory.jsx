@@ -70,7 +70,6 @@ const Inventory = () => {
       setLoading(true);
       try {
         const data = await fetchInventory();
-        console.log(data);
         setData(
           data.map((item) => {
             return {

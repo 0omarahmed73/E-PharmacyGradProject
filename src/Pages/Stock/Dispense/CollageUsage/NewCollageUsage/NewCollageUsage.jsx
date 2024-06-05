@@ -229,8 +229,6 @@ const NewCollageUsage = () => {
       dateofsupply: yup.date().required("الرجاء ادخال تاريخ التوريد"),
     }),
     onSubmit: async (values) => {
-      console.log(medicines);
-      console.log(fetchedInventoryWithOutAlled);
       !location.pathname.includes("edit")
         ? (values = {
             date: values.dateofsupply,
@@ -259,7 +257,6 @@ const NewCollageUsage = () => {
             }),
           });
       setLoading2(true);
-      console.log(values);
       const response = location.pathname.includes("edit")
         ? await updateCollageUsage(values, id)
         : await handleCollageUsage(values);

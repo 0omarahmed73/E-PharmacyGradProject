@@ -937,7 +937,6 @@ const MedicinesProvider = ({ children }) => {
     return response;
   };
   const updateCollageUsage = async (collage, id) => {
-    console.log(id);
     const response = await fetch(`${baseUrl}pharmacy/collegeuseages/${id}`, {
       method: "PUT",
       body: JSON.stringify({
